@@ -125,7 +125,7 @@ export class DaikinTab extends LitElement {
    * Focuses on the inner button.
    * @param options focus options
    */
-  override focus(options?: FocusOptions | undefined): void {
+  override focus(options?: FocusOptions): void {
     this.shadowRoot?.querySelector("button")?.focus(options);
   }
 
