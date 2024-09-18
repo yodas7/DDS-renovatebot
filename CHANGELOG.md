@@ -1,5 +1,25 @@
 # @daikin-oss/design-system-web-components
 
+## 0.4.0
+
+### Minor Changes
+
+- [#56](https://github.com/dsv-rp/DDS/pull/56) [`a81916a`](https://github.com/dsv-rp/DDS/commit/a81916ac21c4fec5e85eb1e8bf9005137887a662) Thanks [@poetrainy](https://github.com/poetrainy)! - **BREAKING CHANGE** Button: The `role` attribute/property is renamed to `button-role` attribute and `buttonRole` property to avoid conflicts with standard HTML attributes.
+  **BREAKING CHANGE** Button: The `size` attribute now accepts values of `"medium"` and `"small"`, instead of `"default"` and `"condensed"`.
+  **BREAKING CHANGE** Button: The `variant` attribute now accepts values of `"fill"`, `"outline"` and `"ghost"`, instead of `"primary"`, `"secondary"`, `"tertiary"` and `"primaryDanger"`.
+  Button: Added `color` attribute that accepts values of `"default"` and `"danger"`.
+  Button: Updated appearance. (DDS-1284)
+
+### Patch Changes
+
+- [#50](https://github.com/dsv-rp/DDS/pull/50) [`4a34db7`](https://github.com/dsv-rp/DDS/commit/4a34db738bc08e347a790c0620bc602bbf1eac5b) Thanks [@poetrainy](https://github.com/poetrainy)! - **BREAKING CHANGE** Notification: The `title` and `description` attributes have been removed, and their contents are now specified using slots with the same names.
+
+- [#55](https://github.com/dsv-rp/DDS/pull/55) [`5d5c051`](https://github.com/dsv-rp/DDS/commit/5d5c0513febb1c38a500850806c9eef0c210a756) Thanks [@rinjInTokyo](https://github.com/rinjInTokyo)! - Toggle: Fix `checked` property not updated on `change` event. (DDS-1317)
+  Tab Group: Fix `value` property not updated on `change` event. (DDS-1317)
+
+- [#45](https://github.com/dsv-rp/DDS/pull/45) [`42f6d1b`](https://github.com/dsv-rp/DDS/commit/42f6d1b27e4020db4e1c286f16d632aa305457d9) Thanks [@poetrainy](https://github.com/poetrainy)! - Text Input: Fixed an issue where the size of components could not be changed. (DDS-1279)
+  Textarea: Fixed an issue where the size of components could not be changed. (DDS-1279)
+
 ## 0.3.2
 
 ### Patch Changes
